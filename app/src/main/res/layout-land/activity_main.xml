@@ -54,6 +54,7 @@
         android:layout_alignParentStart="true"
         android:layout_gravity="left"
         android:background="#1521c8"
+        android:onClick="infinity"
         android:text="get infinity stones"
         android:textSize="25sp"
         android:textStyle="italic" />
@@ -62,6 +63,7 @@
         android:id="@+id/button2"
         android:layout_width="160dp"
         android:layout_height="60dp"
+        android:onClick="reset"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
